@@ -1,0 +1,51 @@
+.loading {
+    background-color: #ffffffb4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading h1 {
+    font-size: 28px;
+    margin-right: 5px;
+    color: #000;
+}
+
+.loading span {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin-right: 5px;
+    margin-bottom: -15px;
+    background-color: #000;
+    justify-content: flex-end;
+    align-items: flex-end;
+    opacity: 1;
+    filter: opacity(1);
+}
+
+.loading span:nth-child(2){
+    animation: loadingDots 1.5s .5s infinite;
+}
+
+.loading span:nth-child(3) {
+    animation: loadingDots 1.5s 1s infinite;
+}
+
+.loading span:last-child {
+    animation: loadingDots 1.5s 1.5s infinite;
+}
+
+@keyframes loadingDots {
+    0% {
+        opacity: 0;
+        filter: opacity(0);
+    }
+    100% {
+        opacity: 1;
+        filter: opacity(1);
+    }
+}

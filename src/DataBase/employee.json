@@ -1,0 +1,102 @@
+{
+  "Users": [
+    {
+      "userId": "boss",
+      "jobTitleName": "Boss",
+      "firstName": "Jenny",
+      "lastName": "Hens",
+      "HiredTime": "01/01/2000",
+      "employeeCode": "E1",
+      "region": "Las Vegas",
+      "phoneNumber": "4081234567",
+      "emailAddress": "jenny.1.hens@gmail.com",
+      "password": "12345"
+    },
+    {
+      "userId": "HR",
+      "jobTitleName": "Human Resources",
+      "firstName": "Jack",
+      "lastName": "Huo",
+      "HiredTime": "01/01/2000",
+      "employeeCode": "E3",
+      "region": "Texas",
+      "phoneNumber": "4082222222",
+      "emailAddress": "tomhanks@gmail.com",
+      "password": "00000"
+    }
+  ],
+  "Employees": [
+    {
+      "id": 1,
+      "employeeCode": "E1",
+      "jobTitleName": "Boss",
+      "firstName": "Jenny",
+      "lastName": "Hens",
+      "HiredTime": "01/01/2000",
+      "salary": "xxx",
+      "region": "Las Vegas",
+      "phoneNumber": "4081234567",
+      "emailAddress": "jenny.1.hens@gmail.com"
+    },
+    {
+      "id": 2,
+      "employeeCode": "E2",
+      "jobTitleName": "QA engineer",
+      "firstName": "Kevin",
+      "lastName": "Clone",
+      "HiredTime": "02/01/2005",
+      "salary": "3000",
+      "region": "Katy",
+      "phoneNumber": "4081111111",
+      "emailAddress": "clone5@gmail.com"
+    },
+    {
+      "id": 3,
+      "employeeCode": "E3",
+      "jobTitleName": "Human Resources",
+      "firstName": "Jack",
+      "lastName": "Huo",
+      "HiredTime": "01/01/2000",
+      "salary": "2000",
+      "region": "Texas",
+      "phoneNumber": "4082222222",
+      "emailAddress": "tomhanks@gmail.com"
+    },
+    {
+      "id": 4,
+      "employeeCode": "E4",
+      "jobTitleName": "Developer",
+      "firstName": "Nian",
+      "lastName": "Ji",
+      "HiredTime": "01/01/2000",
+      "salary": "5000",
+      "region": "China",
+      "phoneNumber": "4081234567",
+      "emailAddress": "jinian@gmail.com"
+    },
+    {
+      "id": 5,
+      "employeeCode": "E5",
+      "jobTitleName": "srgterg",
+      "firstName": "gedrge",
+      "lastName": "rfgedrger",
+      "HiredTime": "rfgedrg",
+      "salary": "4545",
+      "region": "45455",
+      "phoneNumber": "4544545455",
+      "emailAddress": "tomhanks@gmail.com"
+    },
+    {
+      "id": 7,
+      "employeeCode": "E7",
+      "jobTitleName": "ccc",
+      "firstName": "wsxsdx",
+      "lastName": "sxscfsc",
+      "HiredTime": "scscd",
+      "salary": "122",
+      "region": "sxqdxws",
+      "phoneNumber": "121212111",
+      "emailAddress": "erertgerger@gmail.com"
+    }
+  ]
+}
